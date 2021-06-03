@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
         marginVertical: 15
     },
     titleButtonsContainer: {
-        flexDirection: "row"
+        flexDirection: "row",
     },
     completedText: {
         marginBottom: 5

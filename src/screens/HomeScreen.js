@@ -24,7 +24,7 @@ const HomeScreen = ({ theme }) => {
     return (
         <Stack.Navigator initialRouteName="To-Do"
             screenOptions={getScreenHeaderOptions(theme)}>
-            <Stack.Screen name="To-Do" component={TodoListsContainer} />
+            <Stack.Screen name="To-Do" component={TodoListsContainer}/>
             <Stack.Screen name="Details" component={DetailsScreen} />
         </Stack.Navigator>
     );

@@ -27,7 +27,7 @@ const TodoItem = ({ item, editable, isNew, onToggle, onEdit, onDelete, theme }) 
     return (
         <View style={styles.checkboxContainer}>
             <Checkbox
-                status={item.completed ? 'checked' : 'unchecked'}
+                status={item.completed ? 'checked' : 'indeterminate'}
                 onPress={onToggle}
             />
             {editable ?

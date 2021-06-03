@@ -7,18 +7,18 @@ const About = ({ theme }) => {
     return (
         <View style={[styles.container, { backgroundColor: theme.colors.surface }]}>
             <Text>To-Do List App</Text>
-            <Caption>Made by Elena Kim</Caption>
-            <Caption>© {new Date().getFullYear()}</Caption>
+            <Caption>Made by Tien Phan</Caption>
+            <Caption>Copyright © {new Date().getFullYear()} All Rights Reserved</Caption>
             <Divider style={styles.divider} />
-            <Caption>Splash screen and icon:</Caption>
-            <View style={styles.creditsContainer}>
-                <Caption style={styles.link} onPress={() => Linking.openURL('https://dribbble.com/Lione999')}>Lione999</Caption>
-                <Caption> from </Caption>
-                <TouchableOpacity onPress={() => Linking.openURL('https://dribbble.com')} >
-                    <Image source={require('../../assets/dribble.png')}
-                        resizeMode='contain' style={[styles.dribble, { tintColor: theme.colors.text }]} />
-                </TouchableOpacity>
-            </View>
+                {/* <Caption>Splash screen and icon:</Caption>
+                <View style={styles.creditsContainer}>
+                    <Caption style={styles.link} onPress={() => Linking.openURL('https://dribbble.com/Lione999')}>Lione999</Caption>
+                    <Caption> from </Caption>
+                    <TouchableOpacity onPress={() => Linking.openURL('https://dribbble.com')} >
+                        <Image source={require('../../assets/dribble.png')}
+                            resizeMode='contain' style={[styles.dribble, { tintColor: theme.colors.text }]} />
+                    </TouchableOpacity>
+                </View> */}
         </View>
     );
 };

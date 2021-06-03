@@ -29,7 +29,7 @@ const DrawerContent = (props) => {
             >
                 <List.Item
                     title="Settings"
-                    left={props => <List.Icon {...props} icon="settings" />}
+                    left={props => <List.Icon {...props} icon="cog" />}
                 />
             </TouchableRipple>
             <TouchableRipple
